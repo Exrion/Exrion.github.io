@@ -75,11 +75,18 @@ a{
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
-    padding: 0 0 0 0;
+    padding: 10px 0 0 0;
     color: white;
     letter-spacing: 1px;
     text-align: center;
     padding: 10px 50px 0 50px;
+    margin-top: 0.2em;
+    position: relative;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
 }
 
 /* (Temp disable underline)

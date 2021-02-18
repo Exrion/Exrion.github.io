@@ -1,0 +1,13 @@
+html{
+  background: url(bg-images/scene1.jpg) no-repeat center fixed, url(bg-images/scene2.jpg) no-repeat center fixed, url(bg-images/scene3.jpg) no-repeat center fixed,
+    url(bg-images/scene4.jpg) no-repeat center fixed, url(bg-images/desk1.jpg) no-repeat center fixed, url(bg-images/desk2.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+ #text-style{
+   font-family: 'Roboto', sans-serif;
+   font-size: 5em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 700;
+   color: black;
+ }

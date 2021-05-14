@@ -3,12 +3,31 @@
 <head>
   <link rel="stylesheet" type="text/css" href="./stylesheet.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
   <title>Startpage</title>
   <link rel="shortcut icon" type="image/x-icon" href="house.svg" />
 </head>
 
-<div id="text-style">
- test
-</div>
+<body id="background">
+  <div id="center-div">
+    <div id="console">
+      <div id="console-inner">
+        <p id="text-style">...</p>
+        <p id="consolePrint"></p>
+      </div>
+      <div id="console-inner">
+        <p>Lorem Ipsum</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+  <script>
+  GetClock();
+  setInterval(GetClock,1000);
+
+  document.getElementById("consolePrint").innerHTML = mainPrint("ls entertainment");
+  </script>
+</body>
 
 </html>

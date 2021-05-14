@@ -1,13 +1,33 @@
-html{
-  background: url(bg-images/scene1.jpg) no-repeat center fixed, url(bg-images/scene2.jpg) no-repeat center fixed, url(bg-images/scene3.jpg) no-repeat center fixed,
-    url(bg-images/scene4.jpg) no-repeat center fixed, url(bg-images/desk1.jpg) no-repeat center fixed, url(bg-images/desk2.jpg) no-repeat center fixed;
-  background-size: cover;
+#background{
+  background: #484a48;
 }
- #text-style{
-   font-family: 'Roboto', sans-serif;
-   font-size: 5em;
+
+ p{
+   font-family: 'Source Code Pro', sans-serif;
+   font-size: 1em;
    font-style: normal;
    font-variant: normal;
    font-weight: 700;
-   color: black;
+   color: white;
  }
+
+ #center-div{
+   margin: auto;
+   width: 50%;
+   padding: 1em;
+ }
+
+ #console{
+   border: #91b2ff;
+   border-width: medium;
+   border-style: solid;
+   margin: auto;
+   margin-top: 90px;
+ }
+
+#console-inner{
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: black;
+}

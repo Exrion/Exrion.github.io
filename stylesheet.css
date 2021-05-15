@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-#background{
+.background{
   background: #484a48;
 }
 
@@ -13,13 +13,13 @@
    color: white;
  }
 
- #center-div{
+ .center-div{
    margin: auto;
    width: 50%;
    padding: 1em;
  }
 
- #console{
+ .console{
    border: #91b2ff;
    border-width: medium;
    border-style: solid;
@@ -27,7 +27,7 @@
    margin-top: 90px;
  }
 
-#console-inner{
+.console-inner{
   padding-left: 8px;
   padding-top: 2px;
   padding-bottom: 2px;

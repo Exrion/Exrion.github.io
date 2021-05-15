@@ -1,5 +1,3 @@
-document.getElementsByClassName('printTest').innerHTML = mainPrint("ls test");
-
 function mainPrint(line){
   console.log("mainPrint");
 
@@ -13,5 +11,8 @@ function mainPrint(line){
     }
   }
   msg = "ls";
+  console.log(msg);
   return msg;
 }
+
+document.getElementById('printTest').innerHTML = mainPrint("ls test");

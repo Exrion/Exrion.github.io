@@ -1,8 +1,8 @@
 document.getElementsByClassName('printTest').innerHTML = mainPrint("ls test");
 
 function mainPrint(line){
-  //msg is meant for the final concat. string to be returned to the HTML file
-  //lineArr is for an array of words from the line string
+  console.log("mainPrint");
+
   var lineArr = [];
   var msg;
 

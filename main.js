@@ -1,3 +1,8 @@
+GetClock();
+setInterval(GetClock,1000);
+
+document.getElementById("consolePrint").innerHTML = mainPrint("test");
+
 function GetClock(){
   var d=new Date();
   var nhour=d.getHours(),nmin=d.getMinutes(),ap;
@@ -15,13 +20,15 @@ function GetClock(){
 function mainPrint(line){
   //msg is meant for the final concat. string to be returned to the HTML file
   //lineArr is for an array of words from the line string
+  var lineArr = [];
   var msg;
-  var lineArr = line.split("");
+
+  lineArr = line.split("");
   for (var i = 0; i < lineArr.length; i++) {
     if (lineArr[i] == "ls") {
       msg += lineArr[i].fontcolor("#39ff14");
     }
   }
-  let msg = "ls";
+  msg = "ls";
   return msg;
 }

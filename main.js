@@ -2,17 +2,17 @@ function mainPrint(line){
   console.log("mainPrint");
 
   var lineArr = [];
-  var msg;
+  var msg = "exrion@startpage:~" + "$ ".fontcolor("#FFA500");
 
   lineArr = line.split(" ");
   for (var i = 0; i < lineArr.length; i++) {
     if (lineArr[i] == "ls") {
-      msg += lineArr[i].fontcolor("#39ff14");
+      msg += lineArr[i].fontcolor("#39ff14") + " ";
+    } else {
+      msg += lineArr[i].fontcolor("white") + " ";
     }
   }
-  msg = "ls";
-  console.log(msg);
   return msg;
 }
 
-document.getElementById('printTest').innerHTML = mainPrint("ls test");
+document.getElementById('startPrint1').innerHTML = mainPrint("ls test");

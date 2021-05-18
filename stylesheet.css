@@ -43,8 +43,16 @@
   background-color: black;
 }
 
-.inputbox{
-  display: inline-block;
+input[type=text]{
   background-color: black;
+  outline-color: black;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width: 70%;
+}
+
+*:focus{
   outline: none;
 }

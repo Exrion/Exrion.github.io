@@ -1,4 +1,4 @@
-const command = "exrion@startpage:".fontcolor("#39ff14") + "~".fontcolor("cyan") + "$ ";
+const command = "exrion@startpage".fontcolor("#39ff14") + ":".fontcolor("white") + "~".fontcolor("cyan") + "$ ".fontcolor("white");
 
 function mainPrint(line){
   var lineArr = [];
@@ -51,9 +51,26 @@ function getTime(){
   return construct
 }
 
+function readInput(){
+
+}
+
+function getCommand(){
+
+}
+
+function commandBox(){
+
+}
+
+function printCommandText(){
+  return command;
+}
+
 document.getElementById('startPrint1').innerHTML = mainPrint("███████╗ &nbsp exrion@startpage");
 document.getElementById('startPrint2').innerHTML = mainPrint("██╔════╝ &nbsp Date: " + getDate());
 document.getElementById('startPrint3').innerHTML = mainPrint("█████╗░░ &nbsp Time: " + getTime());
 document.getElementById('startPrint4').innerHTML = mainPrint("██╔══╝░░ &nbsp ");
 document.getElementById('startPrint5').innerHTML = mainPrint("███████╗ &nbsp ");
 document.getElementById('startPrint6').innerHTML = mainPrint("╚══════╝ &nbsp ");
+document.getElementById('commandStart').innerHTML = printCommandText();
